@@ -1,0 +1,182 @@
+(footprint "DRV8833_Module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.62 -11.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c1f5e28c-4f8c-4be3-b4c5-ff009b11675b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DRV8833_Module"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1a286b5-fbce-4d9a-bb56-a4347b4ad110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a60652dc-5f83-483f-8e2a-cb6aa436ff1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10119f06-d11c-4129-86ef-4d9dd0e890c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c25394c5-8c62-4f85-b12f-380cae79b729")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -10.001589 -10.16177)
+		(end 9.912011 10.46303)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2f1f3fc2-f8a4-47a3-9aac-b798aab8f9bf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.08 -11.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82c77e5b-11ce-47e5-ad48-0001506a3b9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.314789 10.44183 90)
+		(size 3.4 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e8cd459c-6920-485d-92ca-1342ba5b779b")
+	)
+	(pad "1" smd rect
+		(at 9.861211 -7.64297)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "bb707f15-2b64-4c2d-833e-1f552f2ad48b")
+	)
+	(pad "2" smd oval
+		(at 9.861211 -5.10297)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "bb06941f-e1ba-4470-870d-0486477400ad")
+	)
+	(pad "3" smd oval
+		(at 9.861211 -2.56297)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "448ba098-95dd-4e56-8362-75c78b482129")
+	)
+	(pad "4" smd oval
+		(at 9.861211 -0.02297)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "337c311d-5e95-4476-99d7-bb2c22649534")
+	)
+	(pad "5" smd oval
+		(at 9.861211 2.51703)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "24ac829a-2ada-4cea-9d76-fd69c9c7a9df")
+	)
+	(pad "6" smd oval
+		(at 9.861211 5.05703)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5e479e66-c302-40f2-9c39-8605f5ff6e06")
+	)
+	(pad "7" smd oval
+		(at 9.861211 7.59703)
+		(size 1.7 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0dda7009-0d75-4496-8623-37e6e2558d87")
+	)
+	(pad "8" smd oval
+		(at 1.225211 10.44183 90)
+		(size 3.4 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "7494489d-e7ac-4f38-b25d-1b45594cc549")
+	)
+	(pad "10" smd oval
+		(at -9.950789 -4.44257 180)
+		(size 3.4 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ecf6a0dc-f967-489e-bbd1-4bdc2eb68332")
+	)
+	(pad "11" smd oval
+		(at -9.950789 -1.90257 180)
+		(size 3.4 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a013ca85-21fe-461e-a66a-e5263b688130")
+	)
+	(pad "12" smd oval
+		(at -9.950789 0.63743 180)
+		(size 3.4 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2506d3ec-105b-4943-ba33-f08a81fe69b9")
+	)
+	(pad "13" smd oval
+		(at -9.950789 3.17743 180)
+		(size 3.4 1.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a9bd13cc-2c0a-40d1-9db0-180b98e60c75")
+	)
+	(model "${THISPTR_LBR_DIR}/kicad-modules/kicad-modules.3dshapes/DRV8833_Module.step"
+		(offset
+			(xyz -10 -10.46 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
